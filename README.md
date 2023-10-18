@@ -1,5 +1,8 @@
-# Effects-of-MRI-scanner-manufacturer
-Effects of MRI scanner manufacturers in classification tasks with deep learning models
+# Effects of MRI scanner manufacturers in classification tasks with deep learning models
+The paper has been accepted for publication in Nature Scientific Reports (https://www.nature.com/articles/s41598-023-43715-5).  
+
+## Abstract
+Deep learning has become a leading subset of machine learning and has been successfully employed in diverse areas, ranging from natural language processing to medical image analysis. In medical imaging, researchers have progressively turned towards multi-center neuroimaging studies to address complex questions in neuroscience, leveraging larger sample sizes and aiming to enhance the accuracy of deep learning models. However, variations in image pixel/voxel characteristics can arise between centers due to factors including differences in magnetic resonance imaging scanners. Such variations create challenges, particularly inconsistent performance in machine learning-based approaches, often referred to as domain shift, where the trained models fail to achieve satisfactory or improved results when confronted with dissimilar test data. This study analyzes the performance of multiple disease classification tasks using multi-center MRI data obtained from three widely used scanner manufacturers (GE, Philips, and Siemens) across several deep learning-based networks. Furthermore, we investigate the efficacy of mitigating scanner vendor effects using ComBat-based harmonization techniques when applied to multi-center datasets of 3D structural MR images. Our experimental results reveal a substantial decline in classification performance when models trained on one type of scanner manufacturer are tested with data from different manufacturers. Moreover, despite applying ComBat-based harmonization, the harmonized images do not demonstrate any noticeable performance enhancement for disease classification tasks.
 
 #### CALSNIC2 MRI Scanner Manufacturer Effects in 3D tSNE plot
 
